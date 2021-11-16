@@ -1,0 +1,1377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: #6C6C6C;
+    font-family: 'Roboto', sans-serif;
+}
+.big-header{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.7)), url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:30px 70px 0px 80px;
+    height: 90vh;
+}
+.small-header{
+    background:#403F3F;
+    padding:7px 80px 7px 80px;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+}
+.small-header nav{
+    display: flex;
+    align-items: center;
+}
+.header .logo{
+    display: flex;
+   
+
+}
+.header .logo img{
+    width: 9rem;
+}
+.header a,footer a{
+    text-decoration: none;
+    color: white;
+
+}
+.header .logo i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+i span{
+    color: #FB3B52;
+}
+
+/* nav */
+.navbar{
+    display:flex;
+    margin-top: 1.2rem;
+}
+.navbar li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.navbar li a:hover{
+    color:#FB3B52 ;
+}
+#focus{
+    color:#FB3B52;
+    font-weight: bold;
+}
+
+/* main-header */
+.main-header{
+    margin-top:5%;
+}
+.main-header .h3{
+    font-size: 3rem;
+
+}
+.main-header .h1{
+    font-size: 8.5rem;
+    font-weight: bold;
+    text-shadow: 0rem 0.1rem 1rem rgb(8, 70, 73);
+}
+.main-header .h4{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: -1rem;
+}
+.btn{
+    background: #FB3B52; 
+    border: none;   
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background: rgb(102, 98, 98);
+}
+.main-header .btn-header{
+    margin-top: 3rem;
+    padding: 20px 90px;
+    font-size: 1.2rem;
+
+}
+/* -------------------------------------- */
+
+
+/* body==-------------------------------------------------- */
+.body{
+    width: 96%;
+    margin: auto;
+}
+
+/* name  of pang ------------- */
+.name{
+    width: 100%;
+    display: flex;
+    margin-top: -1.52rem;
+}
+.name p{
+    background: #FB3B52;
+    clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+    padding: 20px 95px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.name span{
+    border-bottom: 3px solid #FB3B52;
+    width: 80%;
+    margin-bottom: 1.52rem;
+
+}
+/* coard-col */
+.coard-col{
+    display: flex;
+    background: rgb(209, 204, 204);
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+.coard-col:hover{
+    box-shadow: 0 0.5rem 1rem #FB3B52;
+}
+.coard-col .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.coard-ed img{
+    width: 35%;
+}
+.coard-homet img{
+    width: 35%;
+}
+.coard-home img{
+    width: 30%;
+}
+.coard-col img{
+
+    margin-right: 2rem;
+}
+.coard-col h1,.coard-col p{
+    color: #000;
+}
+.coard-col h1{
+    font-size: 2.5rem;
+}
+.coard-col p{
+    font-size: 1.4rem;
+}
+
+.coard-col span{
+    color: #FB3B52;
+}
+.coard-col .btn-card{
+    padding: 15px 55px;
+}
+
+/* ----------------- */
+/* nam-header */
+.nam-header{
+    text-align: center;
+    font-size: 2.2rem;
+    width: 13%;
+    margin: auto;
+    margin-bottom: 3rem;
+   border-bottom: 4px solid #FB3B52;
+   padding: 10px 20px;
+}
+.nam-header:hover{
+    text-shadow:0 0.1rem 1rem#FB3B52;
+}
+
+.nam-header span{
+    color:#FB3B52 ;
+
+}
+/* box============= */
+
+ .boxs {
+    display: grid;
+    grid-gap: 1rem;
+
+  }
+  .box-home{
+    grid-template-areas:
+    'box1 box1 box1 box1'
+    'box2 box2 box3 box4'
+    'box2 box2 box5 box5';
+
+  }
+  .box-hobbies{
+    grid-template-areas:
+    'box1 box1 box1 box1 box2'
+    'box3 box3 box4 box4 box2'
+    'box5 box5 box5 box5 box5';
+
+  }
+  .box-exper{
+      width: 100%;
+      display: flex;
+
+      
+  }
+  .ex1 img{
+      width: 32%;
+      margin: 10px;
+  }
+  .ex2 img{
+    width: 24.3%;
+    margin: 5px;
+
+
+  }
+
+
+  .box-edu{
+    grid-template-areas:
+    'box1 box2 box3';
+ 
+
+  }
+  .boxs a{
+      text-decoration: none;
+      font-size:2.5rem;
+      color: white;
+
+  }
+  .boxs a:hover{
+      color: #FB3B52;
+  }
+  .box {
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box:hover{
+      box-shadow:0 0.3rem 1rem #FB3B52;
+  }
+
+
+  .box1{
+      grid-area: box1;
+
+
+  }
+  .box2{
+  
+    grid-area: box2;
+
+    }
+    .box3{
+      
+        grid-area: box3;
+    }
+    .box4{
+        grid-area: box4;
+    }
+    .box5{
+        grid-area: box5;
+    
+    }
+    .add-photo-home1{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/homeben.jpg);
+
+    }
+    .add-photo-home1:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/homeben.jpg);
+        
+    }
+    .add-photo-home2{
+
+        background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(../images/EDU.jpg);
+    }
+    .add-photo-home2:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/EDU.jpg);
+        
+    }
+    .add-photo-home3{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/hob.jpg);
+    }
+    .add-photo-home3:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/hob.jpg);
+        
+    }
+    .add-photo-home4{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/CONTACT.jpeg);
+    }
+    .add-photo-home4:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/CONTACT.jpeg);
+        
+    }
+    .add-photo-home5{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/ho.jpg);
+
+    }
+    .add-photo-home5:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/ho.jpg);
+        
+    }
+
+    .add-photo-hobbies1{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/football.jpeg);
+
+    }
+    .add-photo-hobbies1:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/football.jpeg);
+        
+    }
+    .add-photo-hobbies2{
+
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/chat\ with\ friend.jpg);
+
+    }
+    .add-photo-hobbies2:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/chat\ with\ friend.jpg);
+        
+    }
+    .add-photo-hobbies3{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/ciyling.jpg);
+    }
+    .add-photo-hobbies3:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/ciyling.jpg);
+        
+    }
+    .add-photo-hobbies4{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/movie.jpg);
+
+    }
+    .add-photo-hobbies4:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/movie.jpg);
+        
+    }
+    .add-photo-hobbies4:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/movie.jpg);
+        
+    }
+    .add-photo-hobbies4:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/movie.jpg);
+        
+    }
+    .add-photo-hobbies5{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/reading.jpeg);
+
+
+    }
+    .add-photo-hobbies5:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/reading.jpeg);
+        
+    }
+  
+    .add-photo-homet1{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/temple.jpg);
+
+    }
+    .add-photo-homet1:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/temple.jpg);
+        
+    }
+    .add-photo-homet2{
+        background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0), rgba(0,0,0,0.2)),url(../images/Rectangle\ 85-1.jpg);
+
+    }
+    .add-photo-homet2:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/Rectangle\ 85-1.jpg);
+        
+    }
+    .add-photo-homet3{
+        background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0)),url(../images/Rectangle\ 85.jpg);
+
+    }
+    .add-photo-homet3:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/Rectangle\ 85.jpg);
+        
+    }
+    .add-photo-Edu1{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/pnc\ p.png);
+
+    }
+    .add-photo-Edu1:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/pnc\ p.png);
+
+    }
+    .add-photo-Edu2{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/Campus-Information-570-x-300_570x300.jpg);
+
+    }
+    .add-photo-Edu2:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/Campus-Information-570-x-300_570x300.jpg);
+
+    }
+    .add-photo-Edu3{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/compeny.jpg);
+
+    }
+    .add-photo-Edu3:hover{
+        background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../images/compeny.jpg);
+ 
+
+    }
+
+
+
+
+    /* coard-skill---------------------------------- */
+
+    .coard-skill{
+        margin-top: 3rem;
+    }
+    .exper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .exper  .word{
+        width: 48%;
+    }
+    .exper .gra{
+        width: 48%;
+        padding: 0rem 4rem 8rem 7rem;
+    }
+    .gra .text{
+        display: flex;
+        justify-content: space-between;
+    }
+    .lain{
+        display: flex;
+    }
+    .lain .left{
+        background:#FB3B52;
+
+        height: 14px;
+    }
+    .lain .right{
+        background: rgb(177, 184, 179);
+        height: 14px;
+
+    }
+    .text p{
+        font-size: 1.2rem;
+        color: #000;
+        font-weight: bold;
+    }
+    .word p{
+        font-size: 1.2rem;
+        color: #000;
+    }
+    .coard-skill h2{
+        color: #1f1a1b;
+        font-size: 2rem;
+    }
+    .word .btn{
+        width: 30%;
+        text-align: center;
+        padding: 15px 20px;
+    }
+    .l-1{
+        width: 99%;
+    }
+    .r-1{
+        width: 10%;
+    }
+    .l-2{
+        width: 60%;
+    }
+    .r-2{
+        width: 40%;
+    }
+
+    .l-3{
+        width: 20%;
+    }
+    .r-3{
+        width: 80%;
+    }
+
+    .l-4{
+        width: 89%;
+    }
+    .r-4{
+        width: 11%;
+    }
+    .l-5{
+        width: 88%;
+    }
+    .r-5{
+        width: 12%;
+    }
+/* card-row contact ----------------------*/
+    .main-contact{
+        display: flex;
+    }
+    .card-row{
+        width: 32%;
+        background:rgb(209, 204, 204);
+        margin: 0.5rem;
+        padding: 2rem 1rem 2rem 3rem;
+        text-align: center;
+        color: #1f1a1b;
+    }
+    .card-row:hover{
+        box-shadow:0 0.5rem 1rem #FB3B52;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .icon .fa{
+        font-size: 6rem;
+        border: 3px solid black;
+        color: white;
+        width: 20vh;
+        height: 20vh;
+        background: rgba(20, 20, 20, 0.897);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .icon .fa:hover{
+        background: #FB3B52;
+        border:4px solid #FB3B52 ;
+
+    }
+    .card-row .btn{
+        width: 50%;
+        margin: auto;
+        padding: 15px 20px;
+
+    }
+    .card-row h2{
+        color: #FB3B52;
+        font-size: 2rem;
+    }
+    .card-row h3{
+        margin-bottom: -10px;
+        font-size: 1.5rem;
+
+    }
+    .card-row  p{
+        font-size: 1rem;
+    }
+
+    /* map and from */
+    .main-map-form{
+        display: flex;
+    }
+    .map{
+        width: 55%;
+    }
+    .form{
+        width: 40%;
+        margin-left: auto;
+
+    }
+    .form .infor{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .form .infor input{
+        width: 100%;
+        padding: 20px 30px;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        background: rgba(255, 255, 255, 0.508);
+
+
+
+    }
+    .head{
+        color: #FB3B52;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .text-area{
+        width: 100%;
+        margin-top: 1rem;
+        resize: none;
+        padding: 20px 30px;
+        box-sizing: border-box;
+        outline: none;
+        background: rgba(255, 255, 255, 0.508);
+    }
+    .form .btn{
+        width: 100%;
+        width: 30%;
+        margin: auto;
+        padding: 15px;
+        margin-top: 1rem;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+
+
+    }
+  
+    ::placeholder{
+        font-size: 1.2rem;
+    }
+    .btn a{
+        text-decoration: none;
+        color: white;
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    background: #3d3a3a;
+    display: flex;
+    padding: 4.5rem;
+    margin-top: 3rem;
+    
+}
+.footer .logo{
+    width: 15%;
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.footer .logo img{
+    width: 80%;
+}
+footer .menu{
+    text-align: center;
+    margin: auto;
+}
+.footer .infor{
+    text-align: center;
+    width: 22%;
+}
+.footer .infor .btn .fa{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    margin-left:-1.5rem;
+    padding: 0;
+}
+.footer .icons{
+    display: flex;
+    justify-content: center;
+}
+footer .icons .fa{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 5px;
+    background: rgba(20, 20, 20, 0.897);
+    font-size: 2.3rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .fa:hover{
+    background: #FB3B52;
+    border: 2px solid #FB3B52;  
+}
+.footer h1{
+    color: #FB3B52;
+}
+.footer p{
+    font-size: 1.2rem;
+}
+.footer .infor .btn{
+    padding: 10px 14px;
+    height: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* reponsive header--------------------------------------------- */
+@media(max-width:1390px){
+
+    /* header------------------------------------------ */
+    .big-header{
+        padding:40px 40px 0px 40px;
+        height: 80vh;
+    }
+    .small-header{
+        padding:25px 40px 10px 40px;
+    }
+    .header .logo img{
+        width: 5rem;
+    }
+    .header .logo i{
+        font-size: 2rem;
+    }
+    .navbar li{
+        font-size: 1.1rem;
+    }
+    .main-header .h3{
+        font-size: 2.5rem;
+        margin-bottom: -0.5rem;
+    }
+    .main-header .h1{
+        font-size: 5.5rem;
+    }
+    .main-header .h4{
+        font-size: 1.5rem;
+    }
+    .main-header .btn-header{
+        margin-top: 2rem;
+        padding: 10px 30px;
+    }
+    .header .navbar,header .logo{
+        margin-top: -1rem;
+    }
+
+    /* ========== */
+
+    /* body================== */
+
+    /* benner-- */
+
+    /* name---------- */
+    .name{
+        width: 100%;
+        display: flex;
+        margin-top: -1.52rem;
+    }
+    .name p{
+        width: 15%;
+
+
+    }
+    .name span{
+       width: 67.9%;
+    
+    }
+    /* coard-col */
+
+
+    .coard-col h1{
+        font-size: 1.8rem;
+
+    }
+     .d{
+       display: none;
+    }
+    .coard-homet h1{
+   
+        margin-bottom: -0.5rem;
+        margin-top: -0.2rem;
+    }
+    
+
+    .nam-header{
+        background: none;
+        border-bottom: 3px solid #FB3B52 ;
+        width: 19%;
+        font-size: 1.8rem;    
+
+    }
+
+
+    .lain{
+        display: flex;
+    }
+    .gra h2{
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+
+
+  
+
+
+
+
+
+
+    /* footer--------------------------------------- */
+    footer{
+        padding: 1rem;
+        
+    }
+    .footer .menu .navbar li{
+        font-size: 1rem;
+    }
+    .footer .infor{
+        width: 20%;
+    }
+    .footer .infor p span{
+        display: none;
+    }
+    .footer .infor p{
+        font-size: 0.8rem;
+
+    }
+    footer .fa{
+        width: 3.8rem;
+        height: 3.8rem;
+        margin: 3px;
+        font-size: 2rem;
+    }
+    footer h1{
+
+        font-size: 1.5rem;
+    }
+    footer .logo{
+        margin: 2rem 1rem;
+    }
+    footer .logo div i{
+        font-size: 2rem;
+    }
+
+
+
+
+}
+
+
+/* ------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* reponsive header--------------------------------------------- */
+@media(max-width:1024px){
+
+    /* header------------------------------------------ */
+    .big-header{
+        padding:40px 40px 0px 40px;
+        height: 60vh;
+    }
+    .small-header{
+        padding:25px 40px 10px 40px;
+    }
+    .header .logo img{
+        width: 5rem;
+    }
+    .header .logo i{
+        font-size: 2rem;
+    }
+    .navbar li{
+        font-size: 1.1rem;
+    }
+    .main-header .h3{
+        font-size: 2.5rem;
+        margin-bottom: -0.5rem;
+    }
+    .main-header .h1{
+        font-size: 5.5rem;
+    }
+    .main-header .h4{
+        font-size: 1.5rem;
+    }
+    .main-header .btn-header{
+        margin-top: 2rem;
+        padding: 10px 30px;
+    }
+    .header .navbar,header .logo{
+        margin-top: -1rem;
+    }
+
+    /* ========== */
+
+    /* body================== */
+
+    /* benner-- */
+
+    /* name---------- */
+    .name{
+        width: 100%;
+        display: flex;
+        margin-top: -1.52rem;
+    }
+    .name p{
+        background: #FB3B52;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        text-align: center;
+
+    }
+    .name span{
+       display: none;
+    
+    }
+    /* coard-col */
+    .coard-col{
+        display: block;
+        text-align: center;
+    }
+    .coard-col img{
+        width: 42%;
+        margin-right: 0;
+    }
+    .coard-col .d{
+       display: none;
+    }
+    
+
+    /* nam-header */
+    .nam-header{
+        background: none;
+        border-bottom: 3px solid #FB3B52 ;
+        width: 19%;
+        font-size: 1.8rem;    
+
+    }
+    .nam-header:hover{
+        text-shadow:0 0.1rem 1rem#FB3B52;
+    }
+
+    /* box */
+
+    .box-home{
+        grid-template-areas:
+        'box1 box1'
+        'box2 box2'
+        'box3 box4'
+        'box5 box5';
+    
+      }
+      .box-hobbies{
+        grid-template-areas:
+        'box1 box1'
+        'box2 box2'
+        'box3 box4'
+        'box5 box5';
+    
+      }
+      .box-edu{
+        grid-template-areas:
+        'box1'
+        'box2'
+        'box3'
+    ;
+    
+      }
+      .exper{
+        display: block;
+    }
+    .exper  .word{
+        width: 98%;
+        text-align: center;
+    }
+    .exper .gra{
+        width: 88%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .lain{
+        display: flex;
+    }
+    .gra h2{
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .card-row{
+        width: 32%;
+        background:rgb(209, 204, 204);
+        padding: 1rem 3rem;
+        text-align: center;
+        color: #1f1a1b;
+    }
+    .icon .fa{
+        width: 15vh;
+        height: 15vh;
+        border-radius: 50%;
+        font-size: 4.5rem;
+
+    }
+
+
+    .ex1 img{
+        width: 32%;
+        margin: 7px;
+    }
+    .ex2 img{
+      width: 24.3%;
+      margin: 3px;
+  
+  
+    }
+
+
+  
+
+
+
+
+
+
+    /* footer--------------------------------------- */
+    footer{
+        padding: 1rem;
+        
+    }
+    .footer .menu .navbar li{
+        font-size: 1rem;
+    }
+    .footer .infor{
+        width: 20%;
+    }
+    .footer .infor p span{
+        display: none;
+    }
+    .footer .infor p{
+        font-size: 0.8rem;
+
+    }
+    footer .fa{
+        width: 3.8rem;
+        height: 3.8rem;
+        margin: 3px;
+        font-size: 2rem;
+    }
+    footer h1{
+
+        font-size: 1.5rem;
+    }
+    footer .logo{
+        margin: 2rem 1rem;
+    }
+    footer .logo div i{
+        font-size: 2rem;
+    }
+
+
+
+
+}
+
+
+@media(max-width:500px){
+    .header .logo{
+        display: none;
+    }
+    .navbar{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .big-header{
+        background: #2f2f2f9e;
+        height: 25vh;
+        position: sticky;
+        top: 0;
+        z-index: 99999;
+    }
+    .small-header{
+        background: #2f2f2f9e;
+        padding: 3vh;
+        position: sticky;
+        top: 0;
+        z-index: 99999;
+
+    }
+    .main-header{
+        display: none;
+     
+    }
+
+    /* ----------------------------- */
+       /* body================== */
+    
+       /* benner */
+    .benner img{
+        display: none;
+    }
+    /* name---------- */
+    .name{
+        width: 100%;
+        display: flex;
+        margin-top: -1.52rem;
+    }
+    .name p{
+        background: #FB3B52;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        text-align: center;
+
+    }
+    .name span{
+       display: none;
+
+    
+    }
+    /* btn card--------------- */
+    .coard-col .btn-card{
+        padding: 10px 40px;
+    }
+      /* coard-col ------------------*/
+      .coard-col{
+        display: block;
+        text-align: center;
+    }
+    .coard-col h1{
+        font-size: 1.6rem;
+        margin-bottom: -1rem;
+    }
+    .coard-col .p{
+       display: none;
+    }
+
+    /* nam-header */
+    .nam-header{
+        border-bottom: 2px solid #FB3B52 ;
+        font-size: 1.06rem;
+        width: 30%;
+        margin-top:-1rem ;
+        margin-bottom: 1rem;
+        padding: 5px 10px;
+        
+    }
+
+
+    /* box */
+    .box-home{
+        
+            grid-template-areas:
+            'box1 '
+            'box2'
+            'box3'
+            'box4'
+            'box5';
+        
+          }
+    .box-hobbies{
+ 
+            grid-template-areas:
+            'box1 '
+            'box2'
+            'box3'
+            'box4'
+            'box5';
+        
+          }
+          .box-edu{
+            grid-template-areas:
+            'box1'
+            'box2'
+            'box3';
+          }
+          .boxs{
+            margin-left: 1re;
+          }
+          .box{
+            background-size: cover;
+            background-position: center;
+            padding: 8rem 0rem;
+            text-align: center;
+           
+          }
+          .word .p{
+            display: none;
+        }
+        .word{
+            text-align: center;
+
+            width: 100%;
+            margin: auto;
+           
+        }
+        .coard-skill{
+            padding: 0;
+        }
+
+        .word .btn{
+          width: 30%;
+        }
+        .infor input,.text-area{
+            border: none;
+            background: rgba(201, 194, 194, 0.665);
+        }
+        .exper{
+            display: block;
+        }
+        .exper  h2{
+            font-size: 1.2rem;
+        }  
+        .text p{
+            font-size: 0.8rem;
+        }  
+
+        /* col-row */
+        .main-contact{
+            display: block;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+
+        }
+        .card-row{
+            margin: auto;
+            padding: 10%;
+            width: 77%;
+            margin-bottom: 1rem;
+        }
+        .main-map-form{
+            flex-wrap: wrap;
+        }
+        .map,.form{
+            width: 100%;
+        }
+        .head{
+            text-align: center;
+        }
+        .pra .t{
+            display: none;
+        }
+        .icon .fa{
+            width: 19vh;
+            height: 19vh;
+            font-size: 5rem;
+            margin: 0;
+            padding: 0;
+    
+        }
+        .box-exper{
+            width: 100%;
+            display: block;
+      
+            
+        }
+        .ex1 img{
+            width: 100%;
+            margin: 5px 0;
+        }
+        .ex2 img{
+          width: 100%;
+          margin: 5px 0;
+      
+      
+        }
+
+
+
+
+
+
+
+
+/* responsive footer -----------------------------------*/
+    footer{
+        padding: 1rem;
+        display: block;
+    
+    }
+    .footer .menu .navbar li{
+        font-size: 1rem;
+    }
+    .footer .infor{
+        width: 20%;
+    }
+    .footer .infor p ,.footer .infor h1{
+     display: none;
+    }
+
+
+    footer .icons .fa{
+        width:2.5rem;
+        height: 2.5rem;
+        margin: 2px;
+        font-size: 1.5rem;
+    }
+    footer h1{
+
+        font-size: 1.5rem;
+    }
+    footer .logo div i{
+        display: none;
+    }
+    footer .logo img{
+        display: none;
+    }
+    footer .infor{
+        margin-top: 2vh;
+        width: 100%;
+
+    }
+    footer .infor .btn{
+        display: none;
+
+    }
+
+
+
+
+}
+/* ------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
